@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0iy3qg78k5ky"
+path="res://.godot/imported/Sci-Fi 1 Loop.mp3-e31397efeec5af9a955b2c35a044ef73.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sci-Fi Music Pack/Loops/mp3/Sci-Fi 1 Loop.mp3"
+dest_files=["res://.godot/imported/Sci-Fi 1 Loop.mp3-e31397efeec5af9a955b2c35a044ef73.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

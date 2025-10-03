@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dygxofeyu8tf8"
+path="res://.godot/imported/Sci-Fi 6.wav-ac09ef9fc73e76493f6e23f4ad7c89b4.sample"
+
+[deps]
+
+source_file="res://Assets/Sci-Fi Music Pack/Tracks/wav/Sci-Fi 6.wav"
+dest_files=["res://.godot/imported/Sci-Fi 6.wav-ac09ef9fc73e76493f6e23f4ad7c89b4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

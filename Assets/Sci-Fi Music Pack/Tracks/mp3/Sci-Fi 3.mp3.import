@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cp3yud6m45jag"
+path="res://.godot/imported/Sci-Fi 3.mp3-4714b007c7870d865d490b106763329a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sci-Fi Music Pack/Tracks/mp3/Sci-Fi 3.mp3"
+dest_files=["res://.godot/imported/Sci-Fi 3.mp3-4714b007c7870d865d490b106763329a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
