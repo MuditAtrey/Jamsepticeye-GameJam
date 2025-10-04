@@ -1,0 +1,9 @@
+day 2 of not knowing what the fuck I am doing
+i have the script( story ) of the game ready, but i have no idea how to implement it
+I thought I should start with the level design, turns out- it's the worst fucking idea according to redditors since eve biting that apple
+game mechanics it is then
+also- I haven't setup a git, WHAT AM I DOING WITH THIS GAME, ON GOD
+
+
+ok, i've added the git manually because the version control of godot just doesn't wanna work for some reason
+haven't yet decided on the name of this game, maybe when it's done, also- probably gonna name the murderer séan or seán, i don't remember his name, pretty sure it;s seán

@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://hs6ik5ug4l7t"]
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_7dm0k"]
+vertices = PackedVector3Array(-11.585406, 0.5, -14.287467, -11.585406, 0.5, 14.212533, 11.664594, 0.5, 14.212533, 11.664594, 0.5, -14.287467)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ig7tw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0xm2m"]
+size = Vector3(1.9782715, 1, 1.9821167)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_7dm0k")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D"]
+transform = Transform3D(12.085406, 0, 0, 0, 1.0000005, 0, 0, 0, 14.787467, 0, 0, 0)
+mesh = SubResource("PlaneMesh_ig7tw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/MeshInstance3D/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0028076246, 0, 0.005889857)
+shape = SubResource("BoxShape3D_0xm2m")
